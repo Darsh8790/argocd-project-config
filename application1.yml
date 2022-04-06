@@ -4,7 +4,7 @@ metadata:
   name: myapp-argo-application
   namespace: argocd
 spec:
-  project: demoproject
+  project: test
 
   source:
     repoURL: https://github.com/Darsh8790/argocd-project-config
