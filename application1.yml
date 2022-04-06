@@ -7,9 +7,9 @@ spec:
   project: test
 
   source:
-    repoURL: https://github.com/Darsh8790/argocd-project-config
+    repoURL: https://github.com/Darsh8790/argocd-project-config/multiple-apps
     targetRevision: HEAD
-    path: multiple-apps
+    path: ./demo-app1
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
